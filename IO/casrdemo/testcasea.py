@@ -10,3 +10,4 @@ class TestCasset(unittest.TestCase):
     def test_01_login(self):
         la = LoginPage()
         la.login_ecshop("admin123","wmzsgg123")
+        print("w hsi quan die ")
