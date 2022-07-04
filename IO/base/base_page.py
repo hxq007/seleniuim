@@ -22,3 +22,6 @@ class BasePage:
     # 点击的关键字
     def click_set(self, loc):
         self.d.find_element(*loc).click()
+
+    def get_value(self, loc):
+        return self.locator_element(loc).text

@@ -34,3 +34,6 @@ class LoginPage(BasePage):
         time.sleep(4)
         print("傻逼")
 
+    def get_sim(self):
+       return self.get_value(LoginPage.quit_test)
+
